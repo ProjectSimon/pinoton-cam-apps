@@ -1,7 +1,9 @@
-name: rpicam-app smoke tests
+name: pinotoncam-app smoke tests
 
 on:
   pull_request:
+    branches: [ main ]
+  push:
     branches: [ main ]
 
 env:
